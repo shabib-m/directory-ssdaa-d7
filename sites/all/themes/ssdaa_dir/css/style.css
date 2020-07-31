@@ -1,0 +1,64 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+	font-size:15px !important;
+}
+/* sidebar */
+.region-sidebar-first .block {
+	border: 1px solid #e0e0e0;
+	border-radius: 4px;
+	margin-bottom:10px;
+	background:#f8f8f8;
+	padding:0px 0px 10px 0px;
+} 
+.region-sidebar-first h2 {
+margin-top: 0px;
+margin-bottom: 20px;	
+background:#2e86bf;
+color:#efefef;
+text-shadow: 0 1px 0 #1a4a6a;
+font-size:22px;
+padding:10px 10px 5px 10px;
+border-radius: 4px;
+border-bottom: 1px dotted #e0e0e0;
+}
+.region-sidebar-first .view {
+	margin-right:10px;
+}
+/* front page */
+.fa-folder-open {
+	margin-left:10px;
+	color:#606060;
+}
+.fa-angle-double-left {
+	margin-left:5px;
+	color:#606060;
+}
+.view-taxonomy-term article {
+	background:#f7f7f8;
+	margin:3px;
+	padding:3px;
+	border: 1px dotted #e0e0e0;
+	border-radius: 2px;
+}
+
+.node-directory .field-name-field-screenshot {
+border: 1px solid #cbe2f9;
+padding: 10px;
+background: #FFFFFF;
+margin-top: 20px;
+clear:both;
+float:left;
+} 
+.node-directory .field-name-field-screenshot img {
+	text-align:left;
+}
+.view-related-content .views-field-field-screenshot {
+	width:15%;
+}
+
+.region-sidebar-first {
+	width:85%;
+}
+ 

@@ -1,0 +1,53 @@
+﻿name = New ssdaa1
+description = ثيم دليل صدى للمواقع الجديد الاصدار 1 المصمم شبيب ال مطلق ssdaa.com@gmail.com الموقع <a href="https://ssdaa.com/" >شبكة صدى</a>
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+;stylesheets[all][] = bootstrap/css/bootstrap.css
+;stylesheets[all][] = bootstrap/css/bootstrap.min.css
+;stylesheets[all][] = bootstrap/css/bootstrap-theme.css
+;stylesheets[all][] = bootstrap/css/bootstrap-theme.min.css
+stylesheets[all][] = fontawesome/css/fontawesome.css
+stylesheets[all][] = fontawesome/css/fontawesome-all.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+;scripts[] = 'bootstrap/js/bootstrap.js'
+;scripts[] = 'bootstrap/js/bootstrap.min.js'
+
+; Container
+; --------------
+settings[bootstrap_fluid_container] = 1
+; Advanced
+; --------------
+settings[bootstrap_cdn_provider] = 'custom'
+settings[bootstrap_cdn_custom_css] = 'https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap.css'
+settings[bootstrap_cdn_custom_css_min] = 'https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap.min.css'
+settings[bootstrap_cdn_custom_js] = 'https://cdn.rtlcss.com/bootstrap/3.3.7/js/bootstrap.js'
+settings[bootstrap_cdn_custom_js_min] = 'https://cdn.rtlcss.com/bootstrap/3.3.7/js/bootstrap.min.js'
+
+

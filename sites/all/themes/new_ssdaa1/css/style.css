@@ -1,0 +1,138 @@
+/**
+ * Place your custom styles here.
+ */
+body {
+	margin:0;
+	padding:0;
+	background:#f8f8f8 !important;
+}
+.navbarabng {
+	background:#0b9aca;
+	color:#fff;
+	margin-bottom:20px;
+}
+.navbarabng .navbar-nav a{
+	font-family:"Droid Arabic Kufi", "Open Sans", sans-serif;
+	font-size:13.6px;
+	font-variant:normal;
+	font-weight:600;
+}
+.navbarabng a {
+	color:#fff;
+	text-shadow: 0 1px 0 rgba(0, 0, 0,.25);
+}
+.navbarabng a:hover {
+	color:#000;
+	text-shadow: 0 1px 0 rgba(0, 0, 0,.25);
+}
+.navbar-brand, .nolink, .navbar-nav > li > a {
+    text-shadow: 0 1px 0 rgba(0, 0, 0,.25) !important;
+}
+
+.view-term-parent-list-front-page .views-field-name h3 {
+	background:#af384f;
+	clear:both;
+	width:100%;
+	display:table;
+	color:#f8f8f8;
+	text-shadow: 0 1px 0 rgba(109, 35, 50,.25);	
+	font-size:20px;
+	 border-top-left-radius:3px;	
+	 border-top-right-radius:4px;	
+}
+.fa-folder-open {
+	float:right;
+	background:#e6e3d4;
+	margin:0px;
+	padding:5px;
+	color:#000;
+	border-top-right-radius:3px;
+}
+.nameparent {
+	float:right;
+	margin-right:10px;
+    font-size:20px;
+	color:#f8f8f8;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 1);
+	padding-top:5px;
+}
+.views-field-rendered-entity {
+	clear:both;
+}
+.view-block-term-child {
+	font-size:16px;
+}
+.view-block-term-child .views-field-name-1 {
+	border-bottom:#d8d2bc 1px dotted;
+}
+.block h2 {
+	background:#e6e3d4;
+	color:#09789d;
+	text-shadow: 0 1px 0 rgba(244, 243, 236,.25);
+	font-size:20px;
+	padding:5px;
+	border: #d8d2bc 1px solid;
+	border-radius:2px;
+}
+.region-sidebar-first .views-row {
+	border-bottom:#d8d2bc 1px dotted;
+}
+
+
+.region-content .field-name-field-screenshot img {
+	float:left;
+}
+.region-content .field-name-field-title-website,
+.field-name-field-url-website, .field-name-field-main-term,
+.field-name-field-countrie,
+.field-name-field-descriptionwebsite {
+	padding:5px;
+	border-bottom:#eeeeee 1px solid;
+}
+.region-content .view-mode-full{
+	padding:5px;
+	background:#fff;
+	border: #d8d2bc 1px solid;
+	border-radius:3px;
+}
+.view-related-content .views-field-field-screenshot {
+	width:15%;
+}
+.field-name-field-socialmedia {
+	width:100%;
+	clear:both;
+}
+.field-name-field-socialmedia a {
+	margin:5px;
+	float:left;
+}
+
+.sda-related {
+	padding:5px;
+	border-bottom:#eeeeee 1px solid;
+}
+.view-related-content .views-field-field-screenshot {
+	width:25%;
+	float:right;
+}
+
+.view-related-content .views-field-field-descriptionwebsite{
+float:right;	
+margin-right:5px;
+}
+
+.breadcrumb {
+	padding:5px;
+	background:#fff !important;
+	border: #d8d2bc 1px solid !important;
+	border-radius:3px;
+}
+
+
+.footer {
+	background-color: rgba(0,0,0,0.07);
+	background-image: url("../images/noise-pattern.png");
+	border-top:#f48483 1px dashed;
+	transition: opacity 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+opacity: 1;
+}

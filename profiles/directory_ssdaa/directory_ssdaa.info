@@ -1,0 +1,35 @@
+﻿name = Directory ssdaa
+description = تثبيت دليل صدى للمواقع بشكل سريع.
+version = VERSION
+core = 7.x
+dependencies[] = block
+dependencies[] = color
+dependencies[] = comment
+dependencies[] = contextual
+dependencies[] = dashboard
+dependencies[] = help
+dependencies[] = image
+dependencies[] = list
+dependencies[] = menu
+dependencies[] = number
+dependencies[] = options
+dependencies[] = path
+dependencies[] = taxonomy
+dependencies[] = dblog
+dependencies[] = search
+dependencies[] = shortcut
+dependencies[] = field_ui
+dependencies[] = file
+dependencies[] = rdf
+
+dependencies[] = admin_menu
+dependencies[] = admin_menu_toolbar
+dependencies[] = module_filter
+dependencies[] = empty_front_page
+dependencies[] = views
+dependencies[] = views_bootstrap
+dependencies[] = jquery_update
+dependencies[] = backup_migrate
+
+
+
